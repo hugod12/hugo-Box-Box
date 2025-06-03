@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Shop: Artículos para Boxeo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f2f2f2;
+      margin-top: 50px;
+      min-height: 150vh;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .navigation-buttons {
+      margin-bottom: 50px;
+    }
+    .navigation-buttons a {
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #dc3545;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .navigation-buttons a:hover {
+      background-color: #c82333;
+    }
+
+    .section {
+      background-color: white;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 800px;
+      text-align: left;
+    }
+    .section h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .section p {
+      line-height: 1.6;
+      color: #666;
+    }
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .product-item {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        text-align: center;
+        background-color: #fff;
+    }
+    .product-item img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 3px;
+    }
+    .product-item h3 {
+        color: #333;
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+    .product-item p.price {
+        font-size: 1.1em;
+        color: #007bff;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .product-item button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s ease;
+    }
+    .product-item button:hover {
+        background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Box Shop: Tu Tienda de Artículos para Boxeo</h1>
+
+  <div class="navigation-buttons">
+    <a href="#featured-products">Productos Destacados</a>
+    <a href="#gloves">Guantes de Boxeo</a>
+    <a href="#protectors">Protectores y Equipo</a>
+    <a href="#training-gear">Equipo de Entrenamiento</a>
+    <a href="#contact">Contacto</a>
+    <a href="lecturaa.html" target="_blank">Lecturas</a>
+  </div>
+
+  <div id="featured-products" class="section">
+    <h2>Productos Destacados</h2>
+    <p>Descubre nuestros artículos más populares y las ofertas del momento. ¡Equípate como un campeón!</p>
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="guantes_profesionales.jpeg" alt="Guantes Profesionales">
+            <h3>Guantes Profesionales 12oz</h3>
+            <p class="price">$75.99</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="product-item">
+            <img src="saco_pesado.jpeg" alt="Saco de Boxeo Pesado">
+            <h3>Saco de Boxeo Pesado</h3>
+            <p class="price">$120.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="product-item">
+            <img src="vendas.jpeg" alt="Vendas de Boxeo">
+            <h3>Vendas de Boxeo (par)</h3>
+            <p class="price">$9.50</p>
+            <button>Añadir al Carrito</button>
+        </div>
+    </div>
+  </div>
+
+  <div id="gloves" class="section">
+    <h2>Guantes de Boxeo</h2>
+    <p>Encuentra el par perfecto de guantes para entrenar o competir. Ofrecemos una amplia variedad para todas las necesidades y niveles.</p>
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="guantes_entrenamiento10oz.jpeg" alt="Guantes de Entrenamiento">
+            <h3>Guantes de Entrenamiento 10oz</h3>
+            <p class="price">$59.99</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="product-item">
+            <img src="guantes_sparring16oz.jpeg" alt="Guantes de Sparring">
+            <h3>Guantes de Sparring 16oz</h3>
+            <p class="price">$89.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="product-item">
+            <img src="guantes_infantiles6oz.jpeg" alt="Guantes Infantiles">
+            <h3>Guantes Infantiles 6oz</h3>
+            <p class="price">$35.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+    </div>
+  </div>
+
+  <div id="protectors" class="section">
+    <h2>Protectores y Equipo de Seguridad</h2>
+    <p>La seguridad es primordial. Protege tu cuerpo con nuestra selección de protectores bucales, cabezales y coquillas.</p>
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="protector_bucal.jpeg" alt="Protector Bucal">
+            <h3>Protector Bucal Moldeable</h3>
+            <p class="price">$15.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="product-item">
+            <img src="casco_boxeo.jpeg" alt="Casco de Boxeo">
+            <h3>Casco de Boxeo con Barra</h3>
+            <p class="price">$65.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="product-item">
+            <img src="coquilla.jpeg" alt="Coquilla">
+            <h3>Coquilla de Protección</h3>
+            <p class="price">$25.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+    </div>
+  </div>
+
+  <div id="training-gear" class="section">
+    <h2>Equipo de Entrenamiento</h2>
+    <p>Maximiza tu rendimiento con nuestro equipo de entrenamiento: sacos, peras locas, manoplas y mucho más.</p>
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="pera_loca.jpeg
+              " alt="Pera Loca">
+            <h3>Pera Loca de Velocidad</h3>
+            <p class="price">$45.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="product-item">
+            <img src="manoplas_golpeo.jpeg" alt="Manoplas de Golpeo">
+            <h3>Manoplas de Golpeo (par)</h3>
+            <p class="price">$39.99</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="product-item">
+            <img src="comba_velocidad.jpeg" alt="Comba de Velocidad">
+            <h3>Comba de Velocidad</h3>
+            <p class="price">$12.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+    </div>
+  </div>
+
+  <div id="contact" class="section">
+    <h2>Contacto</h2>
+    <p>¿Necesitas ayuda para elegir el equipo perfecto o tienes alguna pregunta sobre tu pedido? ¡Estamos aquí para ayudarte!</p>
+    <p><strong>Correo electrónico:</strong> ventas@boxshop.com</p>
+    <p><strong>Teléfono:</strong> +52 55 9876 5432</p>
+    <p><strong>Horario de atención:</strong> Lunes a Viernes, 9:00 AM - 7:00 PM</p>
+  </div>
+
+</body>
+</html>
